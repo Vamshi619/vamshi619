@@ -120,9 +120,10 @@
 
 ---
 
-### 📅 Commit Calendar (Full History)
+### 📅 Commit Calendar (Current Year)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.calendar.fullhistory.svg" alt="Commit Calendar Full History">
+  <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.isocalendar.currentyear.svg"
+       alt="Commit Calendar Current Year">
 </p>
 
 ---

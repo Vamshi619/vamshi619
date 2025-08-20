@@ -25,6 +25,29 @@ jobs:
           config_timezone: Asia/Kolkata
           token: ${{ secrets.METRICS_TOKEN }}
 
+      # ---- Current Year (flat GitHub-like grid) ----
+      - name: Calendar (current year only)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.currentyear.svg
+          user: vamshi619
+          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_calendar: yes
+          plugin_calendar_limit: 1     # <-- ONLY the current year
+
+      # ---- Full History (multi-years strip) ----
+      - name: Calendar (full history)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.fullhistory.svg
+          user: vamshi619
+          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_calendar: yes
+          plugin_calendar_limit: 0     # <-- all history
+      
+      # ---- Isometric (3D) full-year ----
       - name: Isometric calendar (full year)
         uses: lowlighter/metrics@latest
         with:
@@ -35,13 +58,3 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_isocalendar_shapes: 3d
-
-      - name: Flat contribution calendar (current year)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.contributions.currentyear.svg
-          user: vamshi619
-          base: ""
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_contribcalendar: yes
-          plugin_contribcalendar_limit: 1  

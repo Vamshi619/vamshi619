@@ -108,28 +108,28 @@
 
 ### ⚡ GitHub Metrics (Auto-updated)
 <p align="center">
-  <img src="https://github.com/vamshi619/vamshi619/blob/main/github-metrics.svg" alt="GitHub Metrics" />
+    <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/github-metrics.svg" alt="GitHub Metrics">
 </p>
 
 ---
 
 ### 📅 Commit Calendar (Current Year)
 <p align="center">
-  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.fullyear.svg" alt="Commit Calendar Current Year" />
+   <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.calendar.currentyear.svg" alt="Commit Calendar Current Year">
 </p>
 
 ---
 
 ### 📅 Commit Calendar (Full History)
 <p align="center">
-  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.fullhistory.svg" alt="Commit Calendar Full History" />
+  <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.calendar.fullhistory.svg" alt="Commit Calendar Full History">
 </p>
 
 ---
 
 ### 🏙️ Isometric Commit Calendar
 <p align="center">
-  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.isometric.svg" alt="Isometric Commit Calendar" />
+   <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.isocalendar.isometric.svg" alt="Isometric Commit Calendar">
 </p>
 
 ---

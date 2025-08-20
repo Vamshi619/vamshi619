@@ -45,13 +45,3 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_calendar: yes
           plugin_calendar_limit: 12
-
-      - name: Calendar (full history)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.calendar.fullhistory.svg
-          user: vamshi619
-          base: ""
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_calendar: yes
-          plugin_calendar_limit: 0

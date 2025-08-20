@@ -20,7 +20,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-  <!-- (Your Tools Section remains unchanged here) -->
+  <!-- (Your existing icons for AWS, Azure, Python, ML, DL, etc.) -->
 </p>
 
 ---
@@ -47,105 +47,90 @@
 
 # 🚀 Projects
 
-<a id="ml-projects"></a>
-<h3>📊 <b>ML Projects</b></h3>
-
+### 📊 ML Projects
 - Customer Churn Prediction — Scikit-learn, XGBoost, SHAP  
-  [Repo](#) • [Demo](#) • <a href="#"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a> • <a href="#"><img alt="PDF Notes" src="https://img.shields.io/badge/Notes-PDF-critical?logo=adobeacrobatreader&logoColor=white"></a>
-
 - Time-Series Forecasting — SARIMAX, Prophet, MLflow tracking  
-  [Repo](#) • Notes
 
----
-
-<a id="dl-projects"></a>
-<h3>🧠 <b>DL Projects</b></h3>
-
+### 🧠 DL Projects
 - Image Classification — PyTorch, EfficientNet, Albumentations  
-  [Repo](#) • [Demo](#) • <a href="#"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
-
 - Object Detection — TensorFlow, TF-Lite, ONNX  
-  [Repo](#) • Notes
 
----
-
-<a id="mlops-projects"></a>
-<h3>⚙️ <b>MLOps Projects</b></h3>
-
+### ⚙️ MLOps Projects
 - Model Serving on K8s — FastAPI, Docker, KServe, HPA  
-  [Repo](#) • Docs
+- Monitoring & Alerting — Prometheus + Grafana  
 
-- Monitoring & Alerting — Prometheus + Grafana dashboards  
-  [Repo](#) • Dashboards
-
----
-
-<a id="genai-projects"></a>
-<h3>🤖 <b>Gen AI Projects</b></h3>
-
+### 🤖 Gen AI Projects
 - RAG Chatbot — LangChain, FAISS, OpenAI API  
-  [Repo](#) • [Demo](#)
-
 - Prompt Engineering Toolkit — Guardrails, Evaluations, Traces  
-  [Repo](#)
 
 ---
 
 # 📝 Notes
 
-<a id="ml-notes"></a>
 ### 📓 ML Notes
-- [Supervised & Unsupervised Basics](#)  
-- [Feature Engineering & EDA](#)  
-- [ML Model Selection Cheatsheet](#)
+- Supervised & Unsupervised Basics  
+- Feature Engineering & EDA  
+- ML Model Selection Cheatsheet  
 
----
-
-<a id="dl-notes"></a>
 ### 📘 DL Notes
-- [CNNs & Transfer Learning](#)  
-- [RNN, LSTM, GRU Explained](#)  
-- [GANs & Autoencoders](#)
+- CNNs & Transfer Learning  
+- RNN, LSTM, GRU Explained  
+- GANs & Autoencoders  
 
----
-
-<a id="genai-notes"></a>
 ### 🤖 Gen AI Notes
-- [Prompt Engineering Guide](#)  
-- [RAG Architectures](#)  
-- [Fine-tuning LLMs](#)
+- Prompt Engineering Guide  
+- RAG Architectures  
+- Fine-tuning LLMs  
 
----
-
-<a id="mlops-notes"></a>
 ### ⚙️ MLOps Notes
-- [CI/CD for ML](#)  
-- [Model Versioning: MLflow, DVC](#)  
-- [Monitoring & Retraining](#)
+- CI/CD for ML  
+- Model Versioning: MLflow, DVC  
+- Monitoring & Retraining  
 
----
-
-<a id="api-notes"></a>
 ### 🌐 API Notes
-- [REST API Basics](#)  
-- [FastAPI Cheatsheet](#)  
-- [gRPC vs REST](#)
+- REST API Basics  
+- FastAPI Cheatsheet  
+- gRPC vs REST  
 
----
-
-<a id="db-notes"></a>
 ### 🗄️ DB Notes
-- [SQL Quick Reference](#)  
-- [NoSQL vs SQL](#)  
-- [Postgres Optimization Tips](#)
+- SQL Quick Reference  
+- NoSQL vs SQL  
+- Postgres Optimization Tips  
+
+### 🏗️ System Design Notes
+- Scalability Basics  
+- Load Balancers & Caching  
+- Designing ML Systems  
 
 ---
 
-<a id="systemdesign-notes"></a>
-### 🏗️ System Design Notes
-- [Scalability Basics](#)  
-- [Load Balancers & Caching](#)  
-- [Designing ML Systems](#)
+# 📊 GitHub Metrics & Contributions
+
+### ⚡ GitHub Metrics (Auto-updated)
+<p align="center">
+  <img src="https://github.com/vamshi619/vamshi619/blob/main/github-metrics.svg" alt="GitHub Metrics" />
+</p>
+
+---
+
+### 📅 Commit Calendar (Current Year)
+<p align="center">
+  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.fullyear.svg" alt="Commit Calendar Current Year" />
+</p>
+
+---
+
+### 📅 Commit Calendar (Full History)
+<p align="center">
+  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.fullhistory.svg" alt="Commit Calendar Full History" />
+</p>
+
+---
+
+### 🏙️ Isometric Commit Calendar
+<p align="center">
+  <img src="https://github.com/vamshi619/vamshi619/blob/main/metrics.plugin.isocalendar.isometric.svg" alt="Isometric Commit Calendar" />
+</p>
 
 ---
 

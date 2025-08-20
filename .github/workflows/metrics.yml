@@ -36,12 +36,12 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_isocalendar_shapes: 3d
 
-      - name: Calendar (current year)
+      - name: Calendar (current year only)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.calendar.currentyear.svg
+          filename: metrics.isocalendar.currentyear.svg   # new filename
           user: vamshi619
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_calendar: yes
-          plugin_calendar_limit: 12
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

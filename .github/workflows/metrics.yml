@@ -1,0 +1,57 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12h
+  workflow_dispatch:         # allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Overall metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          user: vamshi619
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Isometric calendar (full year)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.isocalendar.isometric.svg
+          user: vamshi619
+          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_shapes: 3d
+
+      - name: Calendar (current year)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.currentyear.svg
+          user: vamshi619
+          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_calendar: yes
+          plugin_calendar_limit: 12
+
+      - name: Calendar (full history)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.fullhistory.svg
+          user: vamshi619
+          base: ""
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_calendar: yes
+          plugin_calendar_limit: 0

@@ -113,17 +113,19 @@
 
 ---
 
+
+
 ### 📅 Commit Calendar (Current Year)
 <p align="center">
-    <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.contributions.currentyear.svg"
+  <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.calendar.currentyear.svg?ts=20250821-1"
        alt="Commit Calendar Current Year">
 </p>
-
 ---
 
 ### 🏙️ Isometric Commit Calendar
 <p align="center">
-   <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.isocalendar.isometric.svg" alt="Isometric Commit Calendar">
+  <img src="https://raw.githubusercontent.com/vamshi619/vamshi619/main/metrics.isocalendar.isometric.svg?ts=20250821-1"
+       alt="Isometric Commit Calendar">
 </p>
 
 ---
